@@ -1,4 +1,4 @@
-function printHighscores() {
+function resultHighscores() {
     // either get scores from localstorage or set to empty array
     var highscores = JSON.parse(window.localStorage.getItem("highscores")) || [];
   
@@ -9,22 +9,22 @@ function printHighscores() {
   
     highscores.forEach(function(score) {
       // create li tag for each high score
-      var liTag = document.createElement("li");
-      liTag.textContent = score.initials + " - " + score.score;
+      var list = document.createElement("li");
+      list.textContent = score.initials + " - " + score.score;
   
       // display on page
-      var olEl = document.getElementById("highscores");
-      olEl.appendChild(liTag);
+      var orderedList = document.getElementById("highscores");
+      orderedList.appendChild(list);
     });
   }
   
-  function clearHighscores() {
+  function removeHighscores() {
     window.localStorage.removeItem("highscores");
     window.location.reload();
   }
   
-  document.getElementById("clear").onclick = clearHighscores;
+  document.getElementById("clear").onclick = removeHighscores;
   
   // run function when page loads
-  printHighscores();
+  resultHighscores();
   

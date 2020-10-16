@@ -1,36 +1,36 @@
 // list of all questions, choices, and answers
 var questions = [
     {
-      title: "Commonly used data types DO NOT include:",
-      choices: ["strings", "booleans", "alerts", "numbers"],
-      answer: "alerts"
+      questionTitle: "Which of the following is an example of a boolean:",
+      choices: ["true", "array", "null", "undefined"],
+      answer: "true"
     },
     {
-      title: "The condition in an if / else statement is enclosed within ____.",
-      choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-      answer: "parentheses"
+      questionTitle: "Which company initially developed Javascript?",
+      choices: ["Apple", "Microsoft", "Netscape", "IBM"],
+      answer: "Netscape"
     },
     {
-      title: "Arrays in JavaScript can be used to store ____.",
+      questionTitle: "Which HTML element allows for the use of Javascript?",
       choices: [
-        "numbers and strings",
-        "other arrays",
-        "booleans",
-        "all of the above"
+        "<head>",
+        "<div>",
+        "<meta>",
+        "<script>"
       ],
-      answer: "all of the above"
+      answer: "<script>"
     },
     {
-      title:
-        "String values must be enclosed within ____ when being assigned to variables.",
-      choices: ["commas", "curly brackets", "quotes", "parentheses"],
-      answer: "quotes"
+      questionTitle:
+        "What was the original name of Javascript?",
+      choices: ["LiveScript", "Mocha", "Jscript", "CoffeeScript"],
+      answer: "Mocha"
     },
     {
-      title:
-        "A very useful tool used during development and debugging for printing content to the debugger is:",
-      choices: ["JavaScript", "terminal / bash", "for loops", "console.log"],
-      answer: "console.log"
+      questionTitle:
+        "Which symbol is used for single line comments in Javascript?",
+      choices: ["/*", "//", "===", "++"],
+      answer: "//"
     }
   ];
   
