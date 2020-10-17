@@ -12,3 +12,4 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score.
 
+The application can be found at https://dlabins.github.io/Code-Quiz/index.html.
