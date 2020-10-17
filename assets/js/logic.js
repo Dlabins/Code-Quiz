@@ -96,7 +96,7 @@ function saveHighscore() {
     
     highscores.push(newScore);
     window.localStorage.setItem("highscores", JSON.stringify(highscores));
-    window.location.href = "/assets/highscores.html";
+    window.location.href = "./assets/highscores.html";
   }
 }
 
