@@ -1,4 +1,3 @@
-// list of all questions, choices, and answers
 var questions = [
     {
       questionTitle: "Which of the following is an example of a boolean:",
